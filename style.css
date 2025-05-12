@@ -1,0 +1,57 @@
+/* Universal Reset (optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ID Selector - Styling the header */
+#main-header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 5px solid #e74c3c;
+}
+
+/* Class Selector - Styling the card */
+.card {
+    background-color: #f9f9f9;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+/* Styling an image with a class */
+.styled-image {
+    width: 100%;
+    border: 3px solid #3498db;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Class Selector - Styling the footer */
+.footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    margin-top: 20px;
+}
+
+/* Additional typography styling */
+h2 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
